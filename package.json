@@ -1,0 +1,14 @@
+{
+  "name": "med-shoppe",
+  "version": "1.0.0",
+  "description": "Medicine Shoppe Website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass ./sass/main.scss ./assets/styles.css -w"
+  },
+  "author": "West Indies Tech",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.0"
+  }
+}

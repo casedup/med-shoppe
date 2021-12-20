@@ -1,0 +1,32 @@
+.topnav {
+    
+    &--list {
+        list-style: none;
+        position: relative;
+        @include clearfix;
+        
+        &__items {
+            margin-top: 1rem;
+            display: inline-block;
+            font-size: $fontSize-big;
+            color: $color-black;
+
+            &-link {
+                &:link,
+                &:visited {
+                    text-decoration: none;
+                } 
+            }
+
+
+            &:first-child {
+                float: left;
+                margin-left: 2rem;
+            }        
+            &:not(:first-child) {
+                float: right;
+                margin-right: 3rem;
+            }           
+        }
+    }
+}
